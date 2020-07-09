@@ -1,0 +1,147 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+
+*{
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.title{
+    padding:20px;
+   margin-top:40px;
+   color: #383E56;
+
+}
+
+
+.nav-item {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+#image{
+    padding:20px;
+    margin-bottom:50px;
+}
+
+.content{
+    padding:40px;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+button{
+    background-color: #F69E7B !important ;
+    border-color: #383E56 !important;
+    border-width: 2px !important;
+    color: #383E56 !important;
+    font-weight: bolder !important;
+    padding: 10px !important;
+    width:auto !important;
+    outline:none !important;
+}
+
+#read-more-btn:active{
+    transform: scale(0.95);
+ }
+
+@media only screen and (max-width: 768px) {
+   .banner{
+       display: none;
+   }
+}
+
+@media only screen and (min-width: 992px) {
+   .show{
+       display: none;
+   }
+}
+
+
+#social-icons a:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    color: #383E56;
+}
+
+@keyframes left-right-1{
+    0%{left: -100px; opacity: 0;}
+    50%{left: 0px; opacity: 0.5;}
+    100%{left: 0px; opacity: 1;}
+}
+#left-right-1{
+    animation-name: left-right-1;
+    animation-duration: 2s;
+}
+
+@keyframes right-left-1{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0px; opacity: 0.5;}
+    100%{right: 0px; opacity: 1;}
+}
+#right-left-1{
+    animation-name: right-left-1;
+    animation-duration: 2s;
+}
+
+@keyframes left-right-2{
+    0%{left: -100px; opacity: 0;}
+    50%{left: 0px; opacity: 0.3;}
+    100%{left: 0px; opacity: 1;}
+}
+#left-right-2{
+    animation-name: left-right-2;
+    animation-duration: 4s;
+}
+
+@keyframes right-left-2{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0px; opacity: 0.3;}
+    100%{right: 0px; opacity: 1;}
+}
+#right-left-2{
+    animation-name: right-left-2;
+    animation-duration: 4s;
+}
+
+@keyframes left-right-3{
+    0%{left: -100px; opacity: 0;}
+    50%{left: 0px; opacity: 0.3;}
+    100%{left: 0px; opacity: 1;}
+}
+#left-right-3{
+    animation-name: left-right-3;
+    animation-duration: 6s;
+}
+
+@keyframes right-left-3{
+    0%{right: -100px; opacity: 0;}
+    50%{right: 0px; opacity: 0.3;}
+    100%{right: 0px; opacity: 1;}
+}
+#right-left-3{
+    animation-name: right-left-3;
+    animation-duration: 6s;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 40px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #fff!important; 
+    color: #383E56; 
+    cursor: pointer; 
+    padding: 15px!important; 
+    border-radius: 10px; 
+    font-size: 20px; 
+}

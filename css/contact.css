@@ -1,0 +1,79 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background-color: #F69E7B;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .hide{
+        display:none;
+        color:#383E56;
+        
+    }
+}
+
+
+.para{
+    padding:30px;
+    font-size:22px;
+    margin-top: 30px;
+}
+
+@keyframes para-animation{
+    from{top: -30px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+
+#para-animation{
+    animation-name: para-animation;
+    animation-duration: 3s;
+    color: #383E56;
+}
+
+
+@keyframes card-1{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+#card-1{
+    animation-name: card-1;
+    animation-duration: 2s;
+}
+
+@keyframes card-2{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#card-2{
+    animation-name: card-2;
+    animation-duration: 2s;
+}
+
+@keyframes card-3{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#card-3{
+    animation-name: card-3;
+    animation-duration: 3s;
+}
+
+.text{
+    color: #383E56;
+    padding:40px
+}
+
+#social-icons a:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    color: #383E56;
+}
+
