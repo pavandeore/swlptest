@@ -54,10 +54,9 @@ html body{
  }
 
  button{
-    background-color: #000000 !important ;
-    border-color: #383E56 !important;
-    border-width: 2px !important;
-    color: #d9dceb !important;
+    background-color: transparent !important ;
+    border: 3px solid #252525 !important;
+    color:#252525 !important;
     font-weight: bolder !important;
     padding: 10px !important;
     width:auto !important;
