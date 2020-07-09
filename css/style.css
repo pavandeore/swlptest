@@ -54,7 +54,8 @@ html body{
  }
 #read-more-btn:hover{
     color: #fff !important;
-    border: 3px solid #a6fff2 !important;
+    border: 3px solid #383E56 !important;
+    background: #383E56!important;
 }
 
  button{
