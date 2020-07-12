@@ -71,33 +71,38 @@ html body{
 button:focus{
     outline: none !important;
 }
+.map-integrate{
+   height: 170px;
+   width: 200px;
+}
+#sub-email{
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+#subscribe{
+    margin-top: 10px;
+    color: white!important;
+    font-weight: 800;
+    font-size: 18px;
+    background: rgb(112, 204, 89)!important;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 7px;
+    padding: 7px 20px!important;
+}
 
+#social-icons{
+    list-style: none;
+}
 
-
+.list-unstyled > li > a{
+    color: #fff;
+}
 .fa{
     color:#383E56;
 }
-
-
-#b-1-social{
-    margin: 10px auto;
-    padding-top:30px;
-    width: 60vw;
-}
-
-#b-1-social ul {
+.split-div{
     display: flex;
-    justify-content: space-evenly;
-    color:#d9dceb;
+    margin-left: -50px;
 }
 
-
-#b-1-social ul li a{
-    font-size: 30px;
-}
-
-#social-icons a:hover{
-    transform: scale(1.5);
-    transition: 0.5s;
-    color: #383E56;
-}
